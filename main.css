@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: #7d7d7d;
+}
+
+audio {
+  display: none;
+}
+
+.board {
+  border-radius: 10px;
+  background: #333333;
+  padding: 15px 0px;
+  width: 500px;
+  margin: auto;
+}
+
+.column {
+  border-radius: 5px;
+  padding: 0px 3px;
+  margin: 0px;
+  width: 10%;
+  display: inline-block;
+}
+
+.highlight {
+  background: #ffffff;
+}
+
+.square {
+  border-radius: 5px;
+  opacity: 0.9;
+  background: #585858;
+  min-height: 50px;
+  width: 100%;
+  margin: 8px 0px;
+}
+
+.on {
+  background: #a1ee88;
+}
+
+.round-button {
+  display: inline-block;
+  margin: 3px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #585858;
+}
+
+.logo {
+  font-size: xx-large;
+  color: rgb(169, 71, 71);
+  margin: 0px 20px;
+  text-align: right;
+  font-family: "Audiowide", sans-serif;
+}
