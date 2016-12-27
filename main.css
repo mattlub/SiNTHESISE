@@ -1,3 +1,7 @@
+:root {
+  --sin-red: rgb(169, 71, 71);
+}
+
 body {
   text-align: center;
   box-sizing: border-box;
@@ -42,6 +46,19 @@ audio {
   background: #a1ee88;
 }
 
+.button-container {
+  display: inline-block;
+  margin: 3px;
+  width: 50px;
+}
+
+.button-container label {
+  text-transform: uppercase;
+  font-size: small;
+  font-family: "Audiowide", sans-serif;
+  color: var(--sin-red);
+}
+
 .round-button {
   display: inline-block;
   margin: 3px;
@@ -51,9 +68,17 @@ audio {
   background: #585858;
 }
 
+.memory-button.save-mode {
+  background: var(--sin-red);
+}
+
+.memory-slot-button.full {
+  background: #9c9c9c;
+}
+
 .logo {
   font-size: xx-large;
-  color: rgb(169, 71, 71);
+  color: var(--sin-red);
   margin: 0px 20px;
   text-align: right;
   font-family: "Audiowide", sans-serif;
